@@ -1,0 +1,95 @@
+.icon{
+    padding: 0;
+    margin: 0;
+    width: 20px;
+    height: 20px;
+}
+
+.icon-serche{
+    background: url("../image/search.png") no-repeat center;
+}
+.ico{
+    padding: 10px;
+    width: 80px;
+    height: 80px;
+}
+.icon-lp{
+    background: url("../image/spdmt1.png") no-repeat center;
+}
+/*轮播*/
+@charset "utf-8";
+/* CSS Document */
+.center_area{
+    width:100%;
+    height:500px;
+    margin:0 auto;
+}
+
+
+/*中间区域*/
+.center_area .center{
+    width:100%;
+    height:500px;
+    background:#ccc;
+    float: left;
+}
+.common_da{ width: 800px; height: 100px;}
+.center_area .center .center_top{
+    width:100%;
+    height:440px;
+    /*background: orange;*/
+}
+/*<==================================================>*/
+
+/*中间轮播图区域*/
+
+.content_middle{
+    height:440px;
+    margin:0px auto;
+    position:relative;
+
+}
+.content_middle:hover .common{
+    display: block;
+}
+/*左右切换图标*/
+.content_middle .common{
+    display: block;
+    width:50px;
+    height: 100px;
+    position: absolute;
+    z-index: 25;
+    top:72%;
+    /*margin-top: -50px;*/
+    display: none;
+}
+
+/*左右切换图标*/
+.content_middle ul li{
+    width:100%;
+    height:440px;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    position: absolute;
+    margin:0px auto;
+}
+
+
+/*body*/
+.title-top{
+    font-size:24px ;
+    color: #ff4a52;
+
+}
+
+.title-div{
+    margin-left: -10px;
+    width: 120px;
+    border-top: 1px solid #ff4a52;
+}
+
+.titlesm{
+    color: #8f8f8f;
+    font-size: 12px;
+    margin-left: 20px;
+}
