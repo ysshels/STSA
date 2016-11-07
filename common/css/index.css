@@ -14,7 +14,7 @@
 
 #indexPage #mservice {
     margin-top: 33px ;
-    height: 700px;
+    height: 500px;
     background-color: #f8f8f8;
 }
 
@@ -262,7 +262,7 @@
     left: 5%;
     width: 90%;
     height: 120%;
-    border: 1px solid rgba(0, 0, 0, .15);
+    /*border: 1px solid rgba(0, 0, 0, .15);*/
     margin-left: 0;
     top: -4px;
     transition: all 0.3s ease-out 0s;
@@ -278,7 +278,7 @@
 }
 
 #servicelist .serviceitem:hover {
-    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    /*box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);*/
     margin-top: -8px;
     background: #fff;
 }
@@ -1502,20 +1502,22 @@
 }
 
 #indexPage #servicelist .serviceitem {
-    height: 396px;
-    min-height: 396px;
+    height: 312px;
+    min-height: 312px;
     margin-bottom: 50px;
     padding-bottom: 0;
-    background: #fff;
+    background: #f8f8f8;
     padding-top: 7px;
     margin-right: 25px;
-    width: 374px;
+    width: 250px;
     transition: all 0.3s ease-out 0s;
 }
 
 #indexPage #servicelist .serviceitem:hover {
     box-shadow: 0 12px 20px rgba(0, 0, 0, 0.1);
     margin-top: -8px;
+    background:#ececec ;
+    color: #ff4a52;
 }
 
 #indexPage #servicelist .serviceitem a {
